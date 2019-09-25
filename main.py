@@ -8,3 +8,4 @@ a = input("a: ")
 b = input("b: ")
 if input==1:
 	print(add(a, b))
+
