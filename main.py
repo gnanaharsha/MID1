@@ -27,4 +27,5 @@ if choice=="4":
 	print("Dividing", a, b)
 	ans = div.div(a, b)
 
+print()
 print(ans)
