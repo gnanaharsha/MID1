@@ -2,12 +2,18 @@ import add
 import sub
 import prod
 import div
+import sys
 
-
-choice = input("enter operaton:\n1-add\n2-sub\n3-prod\n4-div\nchoice:\t")
 global a, b
-a = int(input("a: "))
-b = int(input("b: "))
+
+
+args = sys.argv
+# print("enter operaton:\n1-add\n2-sub\n3-prod\n4-div\nchoice:\t")
+choice, a, b = args[1], int(args[2]), int(args[3])
+print(choice, a, b)
+# a = int(input("a: "))
+# b = int(input("b: "))
+ans = 0
 if choice=="1":
 	ans = add.add(a, b)
 if choice=="2":
