@@ -15,12 +15,16 @@ print(choice, a, b)
 # b = int(input("b: "))
 ans = 0
 if choice=="1":
+	print("Adding", a, b)
 	ans = add.add(a, b)
 if choice=="2":
+	print("Subtracting", a, b)
 	ans = sub.sub(a, b)
 if choice=="3":
+	print("Multiplying", a, b)
 	ans = prod.product(a, b)
 if choice=="4":
+	print("Dividing", a, b)
 	ans = div.div(a, b)
 
 print(ans)
